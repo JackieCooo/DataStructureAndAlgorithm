@@ -15,11 +15,11 @@
 ### 2021.04.07  
 加入单链表(lnkList)  
 单链表的head节点和tail节点不储存数据，只负责指针的保存，也就是第一个元素为head节点的后驱，最后一个元素为tail的后驱，但同时最后一个元素的后驱也是tail，如下图所示：  
-![pic](./lnkListStruct.png)
+![pic](./lnkStruct.png)
 
 加入双链表(dbkList)  
 头节点的后驱指向链表首元素，前驱为空；尾节点的后驱为空，前驱指向末节点，如图：  
-![](./dbkListStruct.png)
+![](./dbkStruct.png)
 
 ### 2021.04.09  
 顺序表(arrList)  
@@ -30,14 +30,14 @@
 
 加入链式栈(lnkStack)  
 链式栈的头节点的后驱指向首节点，末节点的后驱指向尾节点，尾节点的后驱同时指向末节点；如图：  
-![pic](./lnkListStruct.png)
+![pic](./lnkStruct.png)
 
 加入顺序循环队列(arrQueue)  
 此顺序栈支持动态空间调整  
 
 加入链式队列(lnkQueue)  
 链式队列的头节点的后驱指向首节点，末节点的后驱指向尾节点，尾节点的后驱同时指向末节点；如图：  
-![pic](./lnkListStruct.png)
+![pic](./lnkStruct.png)
 
 ### 2021.04.23
 加入顺序串(arrString)  
